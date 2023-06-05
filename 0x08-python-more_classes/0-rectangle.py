@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""
-This is an empty class that defines a rectangle
 
-class rectangle:
+"""A classs that defines an rectangle"""
+
+
+class Rectangle:
+    """An empty class that defines a rectangle"""
     pass
-    """
-    An empty class
-p = rectangle
-print p
+
