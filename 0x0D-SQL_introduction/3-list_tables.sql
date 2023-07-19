@@ -1,2 +1,2 @@
-sts all the tables of my database in my MySQL server
+-- Lists all tables in the database
 SHOW TABLES;
