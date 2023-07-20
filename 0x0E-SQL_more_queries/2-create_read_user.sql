@@ -1,4 +1,4 @@
---Create database 'hbtn_0d_2'
+-- create database 'hbtn_0d_2'
 -- If database already exists, script should not fail
 CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
 
