@@ -1,4 +1,7 @@
- with a non-empty name column in a table in the database
-SELECT score, name FROM second_table
-    WHERE name IS NOT NULL
-    ORDER BY score DESC;
+-- Computes and filters the average of a group of records
+-- in a table in the database
+SELECT city, AVG(value) AS avg_temp FROM temperatures
+    WHERE month = 7 OR month = 8
+    GROUP BY city
+    ORDER BY avg_temp DESC
+    LIMIT 3;
